@@ -1,0 +1,10 @@
+/* ## Page Section CSS ## */
+.page-section {
+    padding: 4.5rem 0;
+
+    &&--blue {
+        background-color: $mainBlue;
+        color: #FFF;
+    }
+}
+/* ## End Page Section CSS ## */
