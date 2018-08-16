@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\nvar Person = __webpack_require__(/*! ./modules/Person */ \"./app/assets/scripts/modules/Person.js\");\n\nvar john = new Person(\"John Doe\", \"blue\");\njohn.greet();\n\nvar jane = new Person(\"Jane Smith\", \"green\");\njane.greet();\n\n$(\"h1\").remove();\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\nvar Person = __webpack_require__(/*! ./modules/Person */ \"./app/assets/scripts/modules/Person.js\");\n\nalert(\"This is a test for webpack automation\");\n\nvar john = new Person(\"John Doe\", \"blue\");\njohn.greet();\n\nvar jane = new Person(\"Jane Smith\", \"green\");\njane.greet();\n\n$(\"h1\").remove();\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
 
 /***/ }),
 
